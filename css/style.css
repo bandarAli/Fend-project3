@@ -1,0 +1,86 @@
+body {
+    width : 100%;
+    height: auto ;
+    text-align: center;
+    margin: auto;
+}
+
+/* panal css */
+.panel {
+    display: grid ; 
+    grid-template-columns: 40% 60% ;
+    align-items: center;
+    margin: 0 ;
+}
+
+.panel * {
+    padding: 0 ;
+    margin: 0;
+}
+
+.lifebar img {
+    align-items: left ;
+    width: 32px;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+/*=====  End of Instructional tab styling  ======*/
+
+
+/*=============================================
+=                   Modal                     =
+=============================================*/
+img{
+    width: 2em;
+    height: 3em ;
+}
+
+img:hover{
+    background-color: rgba(7, 237, 245, 0.377);
+
+}
+.modal {
+    position: fixed ;
+    left: 50% ;
+    top: 50%;
+    width: 30em;
+    height: 20em;
+    line-height: 2em ;
+    margin-top: -9em; 
+    margin-left: -15em;  
+    -webkit-transition: top 500ms;
+    -o-transition: top 500ms;
+    -moz-transition: top 500ms;
+    transition: top 500ms;
+    text-align: center ;
+}
+
+.out { 
+    top: -20em;
+    -webkit-transition: top 500ms;
+    -o-transition: top 500ms;
+    -moz-transition: top 500ms;
+    transition: top 500ms;
+}
+
+.modal-content {
+    background-color: rgba(255, 255, 255, 0.667);
+    height: 100%;
+    font-size : 1.7em ;
+    text-align: center;
+    border: 1px black ;
+
+}
+
+.modal-body {
+    color : red ;
+    padding-top: 1em ;
+}
+
+/*=====  End of Modal  ======*/

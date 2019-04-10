@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effective JavaScript: Frogger</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="panel">
+        <div>Score:
+            <span id="score">0</span>
+        </div>
+
+        <div class="lifebar">
+            <img src="images/char-boy.png" alt="life 1" class="life">
+            <img src="images/char-boy.png" alt="life 2" class="life">
+            <img src="images/char-boy.png" alt="life 3" class="life">
+        </div>
+
+    </div>
+
+    <div class="modal out">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title"></h2>
+            </div>
+            <div class="modal-body">
+                <p class="modal-message"></p>
+                <div class="modal-charachter">
+                    <img src="images/char-boy.png" alt="boy" class="img">
+                    <img src="images/char-cat-girl.png" alt="cat girl" class="img">
+                    <img src="images/char-horn-girl.png" alt="horn girl" class="img">
+                    <img src="images/char-pink-girl.png" alt="pink girl" class="img">
+                    <img src="images/char-princess-girl.png" alt="princes girl" class="img">
+                </div>
+            </div>
+            
+            <div class="modal-footer">
+                <p>or Press any key to play</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/resources.js"></script>
+    <script src="js/myClasses.js"></script>
+    <script src="js/app1.js"></script>
+    <script src="js/engine.js"></script>
+</body>
+
+</html>
